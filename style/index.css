@@ -364,7 +364,14 @@ header{
     color: #757575;
 }
 
+.Featured{
+    display: flex;
+    flex-direction: row;`
+}
+
 .Featured__img img{
+    display: flex;
+    flex-direction: column;
     margin-top: 60px;
 }
 
