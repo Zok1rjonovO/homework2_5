@@ -172,3 +172,223 @@ header{
     line-height: 22px;
     color: #A1B5BB;
 }
+
+.nav_list{
+    position: relative;
+}
+
+.box{
+    position: relative;
+    width: 1170px;
+    height: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    margin-top: -155px;
+}
+
+
+.box__text h1:first-child{
+    position: absolute;
+    top: 80px;
+    left: 218px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    color: #265A6A;
+}
+
+.box__text h1{
+    position: absolute;
+    top: 170px;
+    left: 218px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.box__text p{
+    position: absolute;
+    top: 222px;
+    left: 218px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.box__text h1:nth-child(4){
+    position: absolute;
+    top: 170px;
+    left: 501px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.box__text p:nth-child(5){
+    position: absolute;
+    top: 222px;
+    left: 443px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.box__text h1:nth-child(6){
+    position: absolute;
+    top: 170px;
+    left: 684px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.box__text p:nth-child(7){
+    position: absolute;
+    top: 222px;
+    left: 680px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.box__text h1:nth-child(8){
+    position: absolute;
+    top: 170px;
+    left: 833px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.box__text p:last-child{
+    position: absolute;
+    top: 222px;
+    left: 833px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px;
+    color: #08546C;
+}
+
+.nav_header{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.nav_header h6{
+    font-family: 'Schoolbell';
+    font-size: 24px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #265A6A;
+}
+
+.nav_header h1{
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #08546C;
+}
+
+.nav_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section__card{
+    width: 273px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    background: #FFFFFF;
+    padding: 30px 29px 34px;
+    box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+    color: #08546C;
+}
+
+.card__aside{
+    margin-top: 30px;
+    margin-left: -175px;
+}
+
+.card__title h1{
+    margin-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0F1221;    
+}
+
+.card__title p{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    color: #696969;
+}
+
+.Featured__text h1{
+    margin-top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 56px;
+    color: #08546C;
+}
+
+.Featured__text p{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 29px;
+    color: #757575;
+}
+
+.Featured__img img{
+    margin-top: 60px;
+}
+
+.Featured__img h1{
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29px;
+    color: #08546C;
+}
+
+.Featured__img p{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    color: #757575;
+}
+
+.Featured__img a{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #08546C;
+}
